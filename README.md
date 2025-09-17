@@ -128,7 +128,7 @@ For example:
 
 ```shell
 python inference.py \
-    --data_root "./checkpoints/ditto_trt_Ampere_Plus" \
+    --data_root "./checkpoints/ditto_trt_3090" \
     --cfg_pkl "./checkpoints/ditto_cfg/v0.4_hubert_cfg_trt.pkl" \
     --audio_path "./example/audio.wav" \
     --source_path "./example/image.png" \
